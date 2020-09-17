@@ -30,6 +30,7 @@
   -ms-overflow-style: none;
 }
 
+
 html {
   scroll-behavior: smooth;
   transition: .5s;
