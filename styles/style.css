@@ -39,8 +39,12 @@ nav ul li a {
   text-decoration: none;
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
-  padding: 5px 20px;
-  border-radius: 6px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+  /* border-radius: 6px; */
   transition: .5s;
   background-color: transparent;
 }
@@ -49,7 +53,6 @@ nav ul li a:hover {
   color: black;
   transition: .5s;
   background-color: #E6B236;
-  font-weight: 800;
 }
 
 .logo_navbar {
@@ -78,6 +81,10 @@ nav .logo_navbar img {
   transition: .5s;
   background-color: transparent;
   cursor: pointer;
+}
+
+nav ul .submenu_itens {
+  display: none;
 }
 
 @keyframes tonext {
@@ -143,7 +150,7 @@ li {
 
 .carousel {
   position: relative;
-  height: 110vh;
+  height: 100vh;
   filter: drop-shadow(0 0 10px #0003);
   perspective: 100px;
 }
@@ -306,6 +313,30 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+}
+
+#carousel__slide3 {
+  background-image: url('/images/bnn_bandeirasv3.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+}
+
+.container_lottiescroll{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  position: absolute;
+  top: 85vh;
+  ;
+}
+
+.container {
+  
 }
 
 .sec1{
