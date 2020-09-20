@@ -402,7 +402,7 @@ footer .redessociais {
   justify-content: center;
   width: 100%;
   height: 10vh;
-  
+  padding-top: 5vh;
 }
 
 footer .LogoFacebook,
@@ -410,8 +410,8 @@ footer .LogoWhatsApp,
 footer .LogoInsta {
   border-radius: 50%;
   border: 2px solid white;
-  height: 5vh;
-  width: 5vh;
+  height: 10vh;
+  width: 10vh;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -448,6 +448,7 @@ footer .LogoFacebook i,
 footer .LogoInsta i,
 footer .LogoWhatsApp i {
   color: white;
+  font-size: 4vh;
 }
 
 
