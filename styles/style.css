@@ -347,6 +347,14 @@ li {
   width: 100%;
 }
 
+#carousel__slide4 {
+  background-image: url('/images/bnn_bandeirasv4.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+}
 .container_lottiescroll{
   width: 100%;
   display: flex;
