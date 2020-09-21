@@ -102,8 +102,8 @@ nav .logo_navbar:hover {
 }
 
 nav .logo_navbar img {
-  width: 50vh;
-  height: 11vh;
+  width: 35vh;
+  height: 8vh;
   transition: .5s;
   background-color: transparent;
   cursor: pointer;
@@ -348,7 +348,52 @@ li {
 }
 
 #carousel__slide1_soluplac {
-  background-image: url('/images/bnn_adesivosdivv1.png');
+  background-image: url('/images/bnn_soluplacv1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+}
+
+#carousel__slide1_cartazresid {
+  background-image: url('/images/bnn_cartazresidv1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+}
+
+#carousel__slide1_bandeirasrig {
+  background-image: url('/images/bnn_bandeirarigv1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+}
+
+#carousel__slide1_cartaovisit {
+  background-image: url('/images/bnn_cartaovisitv1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+}
+
+#carousel__slide1_prag {
+  background-image: url('/images/bnn_prag.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+}
+
+#carousel__slide1_sant {
+  background-image: url('/images/bnn_sant.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -421,28 +466,32 @@ li {
   margin: 5vh;
   background-color: white;
   opacity: 50%;
+  padding: 5vh;
 }
 
 .sec1 {
   height: 100vh;
+  margin-bottom: 5vh;
+  background: white;
 }
 
 .sec2 {
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  height: 100vh;
+  margin-bottom: 5vh;
 }
 
-.sec2::before {
-  content: '';
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
-  background-color: white;
+.sec2 .titulo_sec {
+ color: white;
+ text-decoration: none;
+ font-size: 30px;
+ font-family: 'Open Sans',
+ sans-serif;
 }
+
+.sec3 {
+  height: 100vh;
+}
+
 
 footer {
    bottom: 0;
