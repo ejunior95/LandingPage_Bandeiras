@@ -109,7 +109,6 @@ nav .logo_navbar img {
   cursor: pointer;
 }
 
-
 @keyframes tonext {
   75% {
     left: 0;
@@ -366,14 +365,14 @@ li {
   ;
 }
 
-.sec1 {
-  height: 100vh;
-}
-
 .container {
   margin: 5vh;
   background-color: white;
   opacity: 50%;
+}
+
+.sec1 {
+  height: 100vh;
 }
 
 footer {
@@ -399,10 +398,14 @@ footer p {
 footer .redessociais {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   width: 100%;
   height: 10vh;
   padding-top: 5vh;
+}
+
+footer .redessociais hr {
+  width: 100%;
 }
 
 footer .LogoFacebook,
@@ -410,7 +413,7 @@ footer .LogoWhatsApp,
 footer .LogoInsta {
   border-radius: 50%;
   border: 2px solid white;
-  height: 10vh;
+  height: 8vh;
   width: 10vh;
   box-sizing: border-box;
   display: flex;
@@ -423,7 +426,7 @@ footer .LogoFacebook:hover,
 footer .LogoWhatsApp:hover,
 footer .LogoInsta:hover {
   cursor: pointer;
-  transform: scale(1.5);
+  transform: scale(1.2);
   transition: .5s;
 }
 
@@ -440,8 +443,13 @@ footer .LogoWhatsApp:hover {
   background-color: #24CC63;
 }
 
+
 footer .LogoInsta {
   margin: 3vh;
+}
+
+footer .LogoFacebook {
+  margin-left: 3vh;
 }
 
 footer .LogoFacebook i,
@@ -460,7 +468,8 @@ footer .logo_footer {
   justify-content: center;
 }
 
+
 footer .logo_footer img {
-  height: 80px;
-  width: 70px;
+  height: 10vh;
+  width: 10vh;
 }
