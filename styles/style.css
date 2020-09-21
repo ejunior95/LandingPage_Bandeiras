@@ -102,8 +102,8 @@ nav .logo_navbar:hover {
 }
 
 nav .logo_navbar img {
-  width: 25vh;
-  height: 10vh;
+  width: 50vh;
+  height: 11vh;
   transition: .5s;
   background-color: transparent;
   cursor: pointer;
@@ -321,7 +321,7 @@ li {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
 }
 
-#carousel__slide1 {
+#carousel__slide1_bandeirastec {
   background-image: url('/images/bnn_bandeirasv1.png');
   background-position: center;
   background-size: cover;
@@ -329,7 +329,42 @@ li {
   width: 100%;
 }
 
-#carousel__slide2 {
+#carousel__slide1_adesivosperf {
+  background-image: url('/images/bnn_adesivosperfv1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+}
+
+#carousel__slide1_adesivosdiv {
+  background-image: url('/images/bnn_adesivosdivv1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+}
+
+#carousel__slide1_soluplac {
+  background-image: url('/images/bnn_adesivosdivv1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+}
+
+#carousel__slide2_bandeirastec,
+#carousel__slide2_adesivosperf,
+#carousel__slide2_adesivosdiv,
+#carousel__slide2_bandeirasrig,
+#carousel__slide2_cartaovisit,
+#carousel__slide2_cartazresid,
+#carousel__slide2_prag,
+#carousel__slide2_sant,
+#carousel__slide2_soluplac {
   background-image: url('/images/bnn_bandeirasv2.png');
   background-position: center;
   background-size: cover;
@@ -337,7 +372,15 @@ li {
   width: 100%;
 }
 
-#carousel__slide3 {
+#carousel__slide3_bandeirastec,
+#carousel__slide3_adesivosperf,
+#carousel__slide3_adesivosdiv,
+#carousel__slide3_bandeirasrig,
+#carousel__slide3_cartaovisit,
+#carousel__slide3_cartazresid,
+#carousel__slide3_prag,
+#carousel__slide3_sant,
+#carousel__slide3_soluplac {
   background-image: url('/images/bnn_bandeirasv3.png');
   background-position: center;
   background-size: cover;
@@ -346,7 +389,15 @@ li {
   width: 100%;
 }
 
-#carousel__slide4 {
+#carousel__slide4_bandeirastec,
+#carousel__slide4_adesivosperf,
+#carousel__slide4_adesivosdiv,
+#carousel__slide4_bandeirasrig,
+#carousel__slide4_cartaovisit,
+#carousel__slide4_cartazresid,
+#carousel__slide4_prag,
+#carousel__slide4_sant,
+#carousel__slide4_soluplac {
   background-image: url('/images/bnn_bandeirasv4.png');
   background-position: center;
   background-size: cover;
@@ -354,6 +405,7 @@ li {
 
   width: 100%;
 }
+
 .container_lottiescroll{
   width: 100%;
   display: flex;
@@ -373,6 +425,23 @@ li {
 
 .sec1 {
   height: 100vh;
+}
+
+.sec2 {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.sec2::before {
+  content: '';
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: white;
 }
 
 footer {
