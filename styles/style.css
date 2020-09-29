@@ -1,6 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 body{
-  background-color: #E6B236;
+ background-color: #f29e03;
+ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='46' height='46' fill-opacity='0.6' fill='%23ffa61d'/%3E%3C/svg%3E");
 }
 
 nav {
@@ -329,6 +330,36 @@ li {
   width: 100%;
 }
 
+.img_bandeiratec {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img_bandeiratec .bandeira_maior {
+  width: 900px;
+  height: 700px
+}
+
+.img_bandeiratec .bandeira_menor {
+   width: 300px;
+   height: 300px
+}
+
+.gif_bandeira {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5vh;
+}
+
+.gif_bandeira img {
+  height: 30vh;
+  width: 50vh;
+}
+
 #carousel__slide1_adesivosperf {
   background-image: url('/images/bnn_adesivosperfv1.png');
   background-position: center;
@@ -464,32 +495,53 @@ li {
 
 .container {
   margin: 5vh;
-  background-color: white;
-  opacity: 50%;
   padding: 5vh;
 }
 
 .sec1 {
-  height: 100vh;
   margin-bottom: 5vh;
   background: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 6px 20px -2px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 6px 6px 20px -2px rgba(0, 0, 0, 0.58);
+  box-shadow: 6px 6px 20px -2px rgba(0, 0, 0, 0.58);
 }
 
 .sec2 {
-  height: 100vh;
   margin-bottom: 5vh;
-}
-
-.sec2 .titulo_sec {
- color: white;
- text-decoration: none;
- font-size: 30px;
- font-family: 'Open Sans',
- sans-serif;
+   background: white;
+   border-radius: 10px;
+   -webkit-box-shadow: 6px 6px 20px -2px rgba(0, 0, 0, 0.58);
+   -moz-box-shadow: 6px 6px 20px -2px rgba(0, 0, 0, 0.58);
+   box-shadow: 6px 6px 20px -2px rgba(0, 0, 0, 0.58);
 }
 
 .sec3 {
-  height: 100vh;
+  background: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 6px 20px -2px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 6px 6px 20px -2px rgba(0, 0, 0, 0.58);
+  box-shadow: 6px 6px 20px -2px rgba(0, 0, 0, 0.58);
+}
+
+.titulo_sec {
+  font-size: 50px;
+  color: #2D2E6B;
+  font-family: 'Open Sans',
+  sans-serif;
+  font-weight: 800;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+  padding-left: 4vh;
+}
+
+.paragrafo_sec {
+  font-size: 25px;
+  color: #2D2E6B;
+  font-family: 'Open Sans',
+  sans-serif;
+  font-weight: bolder;
+  padding-left: 4vh;
 }
 
 
