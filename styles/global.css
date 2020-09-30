@@ -9,9 +9,7 @@
 
 * {
   box-sizing: border-box;
-  scrollbar-color: transparent black;
   /* thumb and track color */
-  scrollbar-width: 0px;
   color: white;
   font-size: 15px;
   font-family: 'Open Sans',

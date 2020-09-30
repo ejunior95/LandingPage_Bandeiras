@@ -36,7 +36,7 @@ nav ul li select {
 }
 
 nav ul li a {
-  line-height: 8vh;
+  line-height: 10.5vh;
   color: white;
   text-decoration: none;
   font-size: 15px;
@@ -72,6 +72,7 @@ nav ul li a:hover,
   background-color: #E6B236;
   cursor: pointer;
 }
+
 
 .submenu_item {
   background-color: #2D2E6B;
@@ -156,7 +157,7 @@ nav .logo_navbar img {
   top: 50%;
   transform: translateY(-50%);
   color: #ffffff !important;
-  font-size: 70px !important;
+  font-size: 85px !important;
   font-weight: bolder !important;
   background: none !important;
 }
@@ -186,6 +187,7 @@ nav .logo_navbar img {
 }
 
 .sec1 {
+  height: 100vh;
   margin-bottom: 5vh;
   background: white;
   border-radius: 10px;
@@ -195,6 +197,7 @@ nav .logo_navbar img {
 }
 
 .sec2 {
+  height: 100vh;
   margin-bottom: 5vh;
    background: white;
    border-radius: 10px;
@@ -204,6 +207,7 @@ nav .logo_navbar img {
 }
 
 .sec3 {
+  height: 100vh;
   background: white;
   border-radius: 10px;
   -webkit-box-shadow: 6px 6px 20px -2px rgba(0, 0, 0, 0.58);
