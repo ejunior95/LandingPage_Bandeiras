@@ -290,17 +290,104 @@ nav .logo_navbar img {
   width: 15%;
 }
 
+#contato {
+  color: transparent;
+}
+
 .sec3 {
-  width: 70vh;
-  height: 30vh;
+  width: 100%;
   background-image: url('/images/BGBandeiras.png');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+   border-radius: 5px;
+   box-sizing: border-box;
   -webkit-box-shadow: 6px 6px 20px -2px rgba(0, 0, 0, 0.58);
   -moz-box-shadow: 6px 6px 20px -2px rgba(0, 0, 0, 0.58);
   box-shadow: 6px 6px 20px -2px rgba(0, 0, 0, 0.58);
+}
+
+.form_contato {
+  margin-left: 5vh;
+  margin-right: 5vh;
+  margin-bottom: 5vh;
+}
+
+.segundalinha_contato {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form_contato .inputNome,
+.form_contato .inputTel,
+.form_contato .inputEmail,
+.form_contato .inputEndereco {
+  height: 50px;
+  font-size: 20px;
+  font-family: 'Open Sans',
+  sans-serif;
+  position: relative;
+  box-sizing: border-box;
+  outline: none;
+  background-color: transparent;
+  margin-bottom: 40px;
+  border: none;
+  border-bottom: 2px solid #2D2E6B;
+  outline: none;
+}
+
+.form_contato .inputMensagem {
+  font-size: 20px;
+  font-family: 'Open Sans',
+    sans-serif;
+  position: relative;
+  box-sizing: border-box;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #2D2E6B;
+  outline: none;
+}
+
+.inputTel,
+.inputEmail {
+  width: 48%;
+}
+
+.inputNome, 
+.inputMensagem,
+.btEnviarMensagem,
+.inputEndereco {
+  width: 100%;
+}
+
+.inputMensagem {
+  resize: none;
+}
+
+.btEnviarMensagem {
+  background-color: #2D2E6B;
+  color: #f29e03;
+  border: 2px solid #2D2E6B;
+  border-radius: 50px;
+  padding: 3vh;
+   font-size: 30px;
+   font-family: 'Open Sans',
+   sans-serif;
+   font-weight: bolder;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   cursor: pointer;
+   transition: .3s;
+}
+
+.btEnviarMensagem:hover {
+    background-color: #ffffff;
+    color: #2D2E6B;
+    border: 2px solid #2D2E6B;
+   transition: .3s;
 }
 
 .titulo_sec {
