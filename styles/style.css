@@ -205,7 +205,8 @@ nav .logo_navbar img {
   box-shadow: 6px 6px 20px -2px rgba(0, 0, 0, 0.58);
 }
 
-.container_img_bandeiratec {
+.container_img_bandeiratec,
+.container_img_adesivoperf {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -220,6 +221,10 @@ nav .logo_navbar img {
 .bandeira_peq {
   height: 20%;
   width: 20%;
+}
+
+.adesivoperf_detalhe {
+  width: 70%;
 }
 
 .container_main_videos {
@@ -244,6 +249,18 @@ nav .logo_navbar img {
   -webkit-box-shadow: 0px 6px 21px -8px rgba(0, 0, 0, 0.61);
   -moz-box-shadow: 0px 6px 21px -8px rgba(0, 0, 0, 0.61);
   box-shadow: 0px 6px 21px -8px rgba(0, 0, 0, 0.61);
+  outline: none;
+}
+
+.video_adesivoperf {
+  height: auto;
+  width: 80%;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 6px 21px -8px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 0px 6px 21px -8px rgba(0, 0, 0, 0.61);
+  box-shadow: 0px 6px 21px -8px rgba(0, 0, 0, 0.61);
+  outline: none;
 }
 
 .sec2 {
