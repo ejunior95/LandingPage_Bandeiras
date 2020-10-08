@@ -119,12 +119,12 @@ nav .logo_navbar img {
 
 .owl-carousel {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 
 .slide {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -135,7 +135,7 @@ nav .logo_navbar img {
   width: 100%;
   text-align: center;
   position: absolute;
-  bottom: 1%;
+  bottom: 5%;
 }
 
 .owl-dots span {
@@ -183,12 +183,14 @@ nav .logo_navbar img {
   justify-content: center;
   z-index: 9998;
   position: absolute;
-  top: 88vh;
+  top: 80vh;
   ;
 }
 
 .container {
-  margin: 5vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  margin-bottom: 5vh;
   padding: 5vh;
 }
 
@@ -206,24 +208,32 @@ nav .logo_navbar img {
 }
 
 .container_img_bandeiratec,
-.container_img_adesivoperf {
+.container_img_adesivoperf,
+.container_img_adesivosdiv,
+.container_img_cartazresid {
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: content-box;
 }
 
-.bandeira_grande {
-  height: 50%;
+.bandeira_grande,
+.cartazresid1_detalhe {
+  height: 60%;
   width: 50%;
 }
 
-.bandeira_peq {
-  height: 20%;
-  width: 20%;
+.bandeira_peq,
+.cartazresid2_detalhe {
+  height: 30%;
+  width: 30%;
 }
 
 .adesivoperf_detalhe {
+  width: 70%;
+}
+
+.adesivodiv_detalhe {
   width: 70%;
 }
 
@@ -303,8 +313,65 @@ nav .logo_navbar img {
 }
 
 .bandeiramedida1m {
+  height: 15%;
+  width: 20%;
+}
+
+.container_abaixo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.adesivomedida100x15 {
+  height: 20%;
+  width: 90%;
+  margin-bottom: 2%;
+}
+
+.adesivomedida80x30 {
+  height: 30%;
+  width: 70%;
+  margin-bottom: 2%;
+}
+
+.adesivomedida70x30 {
+  height: 20%;
+  width: 40%;
+}
+
+.adesivomedida50x30 {
+  height: 15%;
+  width: 30%;
+}
+
+.adesivomedida30x20 {
   height: 10%;
   width: 15%;
+}
+
+.adesivomedida25x8 {
+  height: 10%;
+  width: 30%;
+  margin: 2%;
+}
+
+.adesivomedida30x10{
+  height: 30%;
+  width: 50%;
+}
+
+.adesivomedida20x20 {
+  height: 20%;
+  width: 50%;
+  margin-bottom: 2%;
+}
+
+.adesivomedida50x40 {
+  height: 30%;
+  width: 70%;
+  margin-bottom: 2%;
 }
 
 #contato {
@@ -408,7 +475,7 @@ nav .logo_navbar img {
 }
 
 .titulo_sec {
-  font-size: 5vh;
+  font-size: 10vh;
   color: #2D2E6B;
   font-family: 'Open Sans',
   sans-serif;
@@ -416,15 +483,17 @@ nav .logo_navbar img {
   padding-top: 2vh;
   padding-bottom: 4vh;
   padding-left: 4vh;
+  padding-right: 4vh;
 }
 
 .paragrafo_sec {
-  font-size: 2vh;
+  font-size: 2.5vh;
   color: #2D2E6B;
   font-family: 'Open Sans',
   sans-serif;
   font-weight: bolder;
   padding-left: 4vh;
+  padding-right: 4vh;
 }
 
 footer {
