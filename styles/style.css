@@ -210,23 +210,43 @@ nav .logo_navbar img {
 .container_img_bandeiratec,
 .container_img_adesivoperf,
 .container_img_adesivosdiv,
-.container_img_cartazresid {
+.container_img_cartazresid,
+.container_img_bandeirarig {
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: content-box;
 }
 
+.container_img_cartazresid2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: content-box;
+}
+
 .bandeira_grande,
-.cartazresid1_detalhe {
+.cartazresid1_detalhe,
+.bandeira_rigida {
   height: 60%;
   width: 50%;
+}
+
+.bandeira_rigida {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .bandeira_peq,
 .cartazresid2_detalhe {
   height: 30%;
   width: 30%;
+}
+
+.cartazresid3_detalhe,
+.cartazresid4_detalhe {
+  height: auto;
+  width: 80%;
 }
 
 .adesivoperf_detalhe {
@@ -317,6 +337,7 @@ nav .logo_navbar img {
   width: 20%;
 }
 
+
 .container_abaixo {
   display: flex;
   flex-wrap: wrap;
@@ -372,6 +393,11 @@ nav .logo_navbar img {
   height: 30%;
   width: 70%;
   margin-bottom: 2%;
+}
+
+.cartazresidmedida {
+  height: auto;
+  width: 50%;
 }
 
 #contato {
