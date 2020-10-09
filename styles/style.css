@@ -257,6 +257,10 @@ nav .logo_navbar img {
   width: 70%;
 }
 
+.soluplac_detalhe{
+  margin-bottom: 2%;
+}
+
 .container_main_videos {
   display: flex;
   align-items: center;
