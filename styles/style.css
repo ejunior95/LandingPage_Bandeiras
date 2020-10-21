@@ -265,7 +265,8 @@ body{
   .container_img_adesivoperf,
   .container_img_adesivosdiv,
   .container_img_cartazresid,
-  .container_img_bandeirarig {
+  .container_img_bandeirarig,
+  .container_img_santinho {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -285,6 +286,10 @@ body{
   .cartaovist_detalhe {
     height: 60%;
     width: 50%;
+  }
+
+  .santinho_detalhe {
+      width: 80%;
   }
 
   .bandeira_rigida {
@@ -313,7 +318,12 @@ body{
   }
 
   .soluplac_detalhe {
+    width: 80%;
     margin-bottom: 2%;
+  }
+
+  .soluplacmedida {
+    width: 80%;
   }
 
   .container_main_videos {
@@ -484,9 +494,7 @@ body{
   }
 
   .segundalinha_contato {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+   
   }
 
   .form_contato .inputNome,
@@ -542,7 +550,7 @@ body{
     border: 2px solid #2D2E6B;
     border-radius: 50px;
     padding: 3vh;
-    font-size: 30px;
+    font-size: 15px;
     font-family: 'Open Sans',
       sans-serif;
     font-weight: bolder;
@@ -790,8 +798,8 @@ nav .logo_navbar:hover {
 }
 
 nav .logo_navbar img {
-  width: 40vh;
-  height: 10vh;
+  width: 30vh;
+  height: 7vh;
   transition: .5s;
   background-color: transparent;
   cursor: pointer;
